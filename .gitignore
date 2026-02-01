@@ -1,0 +1,11 @@
+# Terraform local state and plugins
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Sensitive variables (Passwords, etc)
+*.tfvars
+*.tfvars.json
+
+# Backup files
+*.backup
