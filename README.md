@@ -29,32 +29,32 @@ This repository contains Terraform code to deploy a fully automated, scalable, a
 ## 🔧 How to Deploy
 1. **Clone the repo:**
 
-    ```bash
+```bash
     git clone <your-repo-url>
-    ```
+```
 
 2. **Initialize Terraform:**
 
-    ```bash
+```bash
     terraform init
-    ```
+```
 
 3. **Configure Variables:**
     Create a `terraform.tfvars` file and define your database password:
 
-    ```hcl
+```hcl
     db_password = "your_secure_password"
-    ```
+```
 
 4. **Deploy:**
 
-    ```bash
+```bash
     terraform apply
-    ```
+```
 
 ## 🧹 Cleanup
 To avoid ongoing AWS charges, destroy the infrastructure after testing:
 
-    ```bash
+```bash
     terraform destroy
-    ```
+```
