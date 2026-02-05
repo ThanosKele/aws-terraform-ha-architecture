@@ -133,6 +133,7 @@ resource "aws_db_instance" "project3_db" {
   engine                 = "mysql"
   engine_version         = "8.0"
   instance_class         = "db.t3.micro"
+  storage_encrypted      = true # Encryption at rest
   username               = "admin"
   password               = var.db_password # Χρήση μεταβλητής
   skip_final_snapshot    = true
