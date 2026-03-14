@@ -30,7 +30,7 @@ This repository contains Terraform code to deploy a fully automated, scalable, a
 1. **Clone the repo:**
 
 ```bash
-    git clone (https://github.com/ThanosKele/aws-terraform-ha-architecture)
+    git clone https://github.com/ThanosKele/aws-terraform-ha-architecture
 ```
 
 2. **Initialize Terraform:**
